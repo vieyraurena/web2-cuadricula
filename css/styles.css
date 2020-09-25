@@ -1,0 +1,28 @@
+/*-----------------------configuraciones---------------------------*/
+/*--------------------------partial--------------------------------*/
+.box {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.box-fila div {
+  float: left;
+  width: 100px;
+  height: 100px; }
+
+.fila-impar div:nth-child(odd) {
+  background-color: #06a7fb; }
+
+.fila-impar div:nth-child(even) {
+  background-color: #ffffff; }
+
+.fila-par div:nth-child(even) {
+  background-color: #06a7fb; }
+
+.fila-par div:nth-child(odd) {
+  background-color: #ffffff; }
