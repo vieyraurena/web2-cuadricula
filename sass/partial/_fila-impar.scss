@@ -1,0 +1,8 @@
+.fila-impar{
+  div:nth-child(odd){
+    background-color: $fondo-impar;
+  } 
+  div:nth-child(even){
+    background-color: $fondo-par;
+  } 
+}

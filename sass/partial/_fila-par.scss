@@ -1,0 +1,8 @@
+.fila-par{
+  div:nth-child(even){
+    background-color:$fondo-impar;
+  } 
+  div:nth-child(odd){
+    background-color:$fondo-par;
+  } 
+}

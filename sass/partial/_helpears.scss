@@ -1,0 +1,13 @@
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+
+.box-fila {
+  div {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+}
